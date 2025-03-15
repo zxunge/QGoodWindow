@@ -383,7 +383,7 @@ void QGoodCentralWidget::setIconVisibility(const IconVisibilityType &type)
 
     updateWindow();
 #else
-    Q_UNUSED(visible)
+    Q_UNUSED(type)
 #endif
 }
 
