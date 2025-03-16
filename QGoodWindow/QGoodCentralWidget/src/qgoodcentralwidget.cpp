@@ -501,7 +501,7 @@ Qt::Alignment QGoodCentralWidget::titleAlignment() const
 #ifdef QGOODWINDOW
     return m_title_bar->titleAlignment();
 #else
-    return Qt::Alignment(0);
+    return Qt::Alignment();
 #endif
 }
 
